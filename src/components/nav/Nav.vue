@@ -1,5 +1,5 @@
 <template>
-  <div class="nav">
+  <div :class="$style.navigation">
     <ul :class="$style.navContainer">
       <router-link to="/" tag="li">Home</router-link>
       <router-link to="/about" tag="li">About</router-link>

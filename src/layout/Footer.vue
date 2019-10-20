@@ -1,5 +1,5 @@
 <template>
-  <div class="footer">Foote222r12</div>
+  <div class="footer">Footer</div>
 </template>
 
 <script lang="ts">
@@ -10,3 +10,7 @@ export default class Footer extends Vue {
 
 }
 </script>
+
+<style lang="scss" module>
+@import '@scss/components/footer/footer.scss';
+</style>

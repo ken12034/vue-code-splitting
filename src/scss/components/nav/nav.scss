@@ -1,5 +1,33 @@
+
+.navigation {
+  width: 100%;
+  height: 60px;
+  background: #1c1c1c;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+
 .navContainer {
   display: flex;
   list-style: none;
+  margin: 0;
+  padding: 0;
+  
+  li {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    color: #ffffff;
+    margin-right: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+  }
 }
+
+
+
+
 

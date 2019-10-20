@@ -1,4 +1,13 @@
-
+:global {
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Microsoft JhengHei;
+    padding: 0;
+    margin: 0;
+  }
+}
 
 .appContainer {
   font-size: 20px;
