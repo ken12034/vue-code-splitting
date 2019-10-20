@@ -1,0 +1,71 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "target": "es5",
+    // "module": "es6",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    // removeComments": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "baseUrl": ".",
+    "sourceMap": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "importHelpers": true,
+    "pretty": true,
+    "allowJs": true,
+    "strict": true,
+    "lib": [
+      "dom",
+      "es2017",
+      "es6",
+      "es5"
+    ],
+    "paths": {
+      "@interfaces/*": [
+        "src/interfaces/*"
+      ],
+      "@api/*": [
+        "src/api/*"
+      ],
+      "@src/*": [
+        "src/*"
+      ],
+      "@pages/*": [
+        "src/pages/*"
+      ],
+      "@layout/*": [
+        "src/layout/*"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@mixins/*": [
+        "src/mixins/*"
+      ],
+      "@scss/*": [
+        "src/scss/*"
+      ],
+      "@lib/*": [
+        "src/lib/*"
+      ],
+      "@fonts/*": [
+        "src/fonts/*"
+      ],
+      "@images/*": [
+        "src/images/*"
+      ]
+    }
+  },
+  "include": [
+    "./**/*",
+    "tsconfig.json",
+    "/src"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+  ]
+}
