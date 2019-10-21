@@ -150,6 +150,12 @@ module.exports = {
       vue: 'vue/dist/vue.js'
     }
   },
+  optimization: {
+    splitChunks: {
+      chunks: 'all',
+
+    }
+  },
   plugins: [
     new webpack.ProgressPlugin(),
     new CleanWebpackPlugin(),
